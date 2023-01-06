@@ -1,64 +1,6 @@
 # Bits-and-bytes-google-itsupport
 
-Cloud computing: The concept and technological approach of accessing data, using applications, storing files, etc. from anywhere in the world as long as you have an internet connection
-
-Error detection: The ability for a protocol or program to determine that something went wrong
-
-Error recovery: The ability for a protocol or program to attempt to fix an error
-
-Flow label field: 20-bit field that's used in conjunction with the traffic class field for routers to make decisions about the quality of service level for a specific datagram
-
-Hop limit field: An 8-bit field that's identical in purpose to the TTL field in an IPv4 header
-
-Host file: It is a flat file that contains, on each line, a network address followed by the host name it can be referred to as
-
-Hybrid cloud: Used to describe situations where companies might run things like
-
-Hypervisor: A piece of software that runs and manages virtual machines while also
-
-offering guests a virtual operating platform that's indistinguishable from actual hardware
-
-ICMP: Internet control message protocol is used by router or remote hosts to communicate error messages when network problems prevent delivery of IP packets
-
-ICMP payload: Piece of the packet which lets the recipient of the message knows which of their transmissions caused the error being reported
-
-Infrastructure as a Service (IaaS): A subset of cloud computing where a network and servers are provided for customers to run their services
-
-IPv6 tunnel brokers: Companies that provide IPv6 tunneling endpoints for you, so you don't have to introduce additional equipment to your network
-
-IPv6 tunnel: IPv6 tunnel servers on either end of a connection take incoming IPv6 traffic and encapsulate it within traditional IPv4 datagrams
-
-Link-local unicast address: Allow for local network segment communications and are configured based upon a host's MAC address
-
-Loopback address: An IP address that always points to itself. This type of address is used to test internal pathing through the TCP/IP protocols
-
-Multicast: A way of addressing groups of hosts all at once
-
-Next header field: Defines what kind of header is immediately after this current one
-
-Payload length field: 16-bit field that defines how long the data payload section of the datagram is
-
-Platform as a service: A subset of cloud computing where a platform is provided for customers to run their services
-
-Private cloud: When a company owns the services and the rest of the cloud infrastructure, whether on-site or in a remote data center
-
-Public cloud: The cloud services provided by a third party
-
-Public DNS servers: Name servers specifically set up so that anyone can use them for free
-
-Registrar: An organization responsible for assigning individual domain names to other organizations or individuals
-
-Software as a Service (SaaS): A way of licensing the use of software to others while keeping that software centrally hosted and managed
-
-Traffic class field: An 8-bit field that defines the type of traffic contained within the IP datagram and allows for different classes of traffic to receive different priorities
-
-Version field: First field in an IP header that specifies the version of IP
-
-Virtualization: A single physical machine called a host runs many individual virtual instances called guests
-
-
-Terms and their definitions from previous weeks
-A
+  A
 
 A record: The most common resource record, used to point a certain domain name at a certain IPv4 IP address
 
@@ -86,7 +28,7 @@ Asymmetric Digital Subscriber Line (ADSL): A device that establishes data connec
 
 Automatic allocation: A range of IP addresses is set aside for assignment purposes
 
-B
+  B
 
 Baud rate: A measurement of how many bits could be passed across a phone line in a second
 
@@ -102,7 +44,7 @@ Broadcast address: A special destination used by an Ethernet broadcast composed 
 
 Broadcast: A type of Ethernet transmission, sent to every single device on a LAN
 
-C
+  C
 
 Cable categories: Groups of cables that are made with the same material. Most network cables used today can be split into two categories, copper and fiber
 
@@ -124,6 +66,8 @@ CLOSE_WAIT: A connection state that indicates that the connection has been close
 
 CLOSE: A connection state that indicates that the connection has been fully terminated, and that no further communication is possible
 
+Cloud computing: The concept and technological approach of accessing data, using applications, storing files, etc. from anywhere in the world as long as you have an internet connection
+
 CNAME: A resource record used to map one domain to another
 
 Collision domain: A network segment where only one device can communicate at a time
@@ -142,7 +86,7 @@ Crosstalk: Crosstalk is when an electrical pulse on one wire is accidentally det
 
 Cyclical Redundancy Check (CRC): A mathematical transformation that uses polynomial division to create a number that represents a larger set of data. It is an important concept for data integrity and is used all over computing, not just network transmissions
 
-D
+  D
 
 Data offset field: The number of the next expected segment in a TCP packet/datagram
 
@@ -192,7 +136,10 @@ Dynamic allocation: A range of IP addresses is set aside for client devices and 
 
 Dynamic IP address: An IP address assigned automatically to a new device through a technology known as Dynamic Host Configuration Protocol
 
-E
+  E
+Error detection: The ability for a protocol or program to determine that something went wrong
+
+Error recovery: The ability for a protocol or program to attempt to fix an error
 
 ESTABLISHED: Status indicating that the TCP connection is in working order, and both sides are free to send each other data
 
@@ -204,7 +151,7 @@ EtherType field: It follows the Source MAC Address in a dataframe. It's 16 bits 
 
 Exterior gateway: Protocols that are used for the exchange of information between independent autonomous systems
 
-F
+  F
 
 Fiber cable: Fiber optic cables contain individual optical fibers which are tiny tubes made of glass about the width of a human hair. Unlike copper, which uses electrical voltages, fiber cables use pulses of light to represent the ones and zeros of the underlying data
 
@@ -232,6 +179,8 @@ Frame control field: 16 bits long, it contains a number of sub-fields that are u
 
 Frequency band: A certain section of the radio spectrum that's been agreed upon to be used for certain communications
 
+Flow label field: 20-bit field that's used in conjunction with the traffic class field for routers to make decisions about the quality of service level for a specific datagram
+
 FTP: An older method used for transferring files from one computer to another, but you still see it in use today
 
 FTTB: Fiber to the building, fiber to the business or even fiber to the basement, since this is generally where cables to buildings physically enter. FTTB is a setup where fiber technologies are used for data delivery to an individual building
@@ -248,7 +197,7 @@ Full duplex: The capacity of devices on either side of a networking link to comm
 
 Fully qualified domain name: When you combine all the parts of a domain together
 
-H
+  H
 
 Half-duplex: It means that, while communication is possible in each direction, only one device can be communicating at a time
 
@@ -262,13 +211,25 @@ Header length field: A four bit field that declares how long the entire header i
 
 Hexadecimal: A way to represent numbers using a numerical base of 16
 
+Hop limit field: An 8-bit field that's identical in purpose to the TTL field in an IPv4 header
+
+Host file: It is a flat file that contains, on each line, a network address followed by the host name it can be referred to as
+
 Hub: It is a physical layer device that broadcasts data to everything computer connected to it
 
-I
+Hybrid cloud: Used to describe situations where companies might run things like
+
+Hypervisor: A piece of software that runs and manages virtual machines while also offering guests a virtual operating platform that's indistinguishable from actual hardware
+
+  I
 
 IANA: The Internet Assigned Numbers Authority, is a non-profit organization that helps manage things like IP address allocation
 
 Identification field: It is a 16-bit number that's used to group messages together
+
+ICMP: Internet control message protocol is used by router or remote hosts to communicate error messages when network problems prevent delivery of IP packets
+
+ICMP payload: Piece of the packet which lets the recipient of the message knows which of their transmissions caused the error being reported
 
 Instantiation: The actual implementation of something defined elsewhere
 
@@ -288,15 +249,25 @@ IP masquerading: The NAT obscures the sender's IP address from the receiver
 
 IP options field: An optional field and is used to set special characteristics for datagrams primarily used for testing purposes
 
-L
+Infrastructure as a Service (IaaS): A subset of cloud computing where a network and servers are provided for customers to run their services
+
+IPv6 tunnel brokers: Companies that provide IPv6 tunneling endpoints for you, so you don't have to introduce additional equipment to your network
+
+IPv6 tunnel: IPv6 tunnel servers on either end of a connection take incoming IPv6 traffic and encapsulate it within traditional IPv4 datagrams
+
+  L
 
 Line coding: Modulation used for computer networks
+
+Link-local unicast address: Allow for local network segment communications and are configured based upon a host's MAC address
 
 Listen: It means that a TCP socket is ready and listening for incoming connections
 
 Local Area Network (LAN): A single network in which multiple devices are connected
 
-M
+Loopback address: An IP address that always points to itself. This type of address is used to test internal pathing through the TCP/IP protocols
+
+  M
 
 MAC filtering: Access points are configured to only allow for connections from a specific set of MAC addresses belonging to devices you trust
 
@@ -308,13 +279,15 @@ Metered connection: An internet connection where all data transfer usage is trac
 
 Modulation: A way of varying the voltage of a constant electrical charge moving across a standard copper network cable
 
+Multicast: A way of addressing groups of hosts all at once
+
 Multicast frame: If the least significant bit in the first octet of a destination address is set to one, it means you're dealing with a multicast frame. A multicast frame is similarly set to all devices on the local network signal, and it will be accepted or discarded by each device depending on criteria aside from their own hardware MAC address
 
 Multiplexing: It means that nodes on the network have the ability to direct traffic toward many different receiving services
 
 MX record: It stands for mail exchange and this resource record is used in order to deliver email to the correct server
 
-N
+  N
 
 Name resolution: This process of using DNS to turn a domain name into an IP address
 
@@ -325,6 +298,8 @@ Network layer: It's the layer that allows different networks to communicate with
 Network port: The physical connector to be able to connect a device to the network. This may be attached directly to a device on a computer network, or could also be located on a wall or on a patch panel
 
 Network switch: It is a level 2 or data link device that can connect to many devices so they can communicate. It can inspect the contents of the Ethernet protocol data being sent around the network, determine which system the data is intended for and then only send that data to that one system
+
+Next header field: Defines what kind of header is immediately after this current one
 
 Next hop: The IP address of the next router that should receive data intended for the destination networking question or this could just state the network is directly connected and that there aren't any additional hops needed. Defined as part of the routing table
 
@@ -338,7 +313,7 @@ NS record: It indicates other name servers that may also be responsible for a pa
 
 NTP servers: Used to keep all computers on a network synchronized in time
 
-O
+  O
 
 Octet: Any number that can be represented by 8 bits
 
@@ -350,7 +325,7 @@ Organizationally Unique Identifier (OUI): The first three octets of a MAC addres
 
 OSI model: A model used to define how network devices communicate. This model has seven layers that stack on top of each other: Physical, Data Link, Network, Transport, Session, Presentation, and Application
 
-P
+  P
 
 Padding field: A series of zeros used to ensure the header is the correct total size
 
@@ -360,7 +335,14 @@ Patch panel: A device containing many physical network ports
 
 Payload: The actual data being transported, which is everything that isn't a header
 
+Payload length field: 16-bit field that defines how long the data payload section of the datagram is
+
 Physical layer: It represents the physical devices that interconnect computers
+
+Private cloud: When a company owns the services and the rest of the cloud infrastructure, whether on-site or in a remote data center
+
+
+Platform as a service: A subset of cloud computing where a platform is provided for customers to run their services
 
 Point-To-Point VPN: Establishes a VPN tunnel between two sites but VPN tunneling logic is handled by network devices at either side, so that users don't all have to establish their own connections
 
@@ -384,15 +366,21 @@ Proxy service: A server that acts on behalf of a client in order to access anoth
 
 PSH flag: One of the TCP control flags. PSH is short for push. This flag means that the transmitting device wants the receiving device to push currently- buffered data to the application on the receiving end as soon as possible
 
-Q
+Public cloud: The cloud services provided by a third party
+
+Public DNS servers: Name servers specifically set up so that anyone can use them for free
+
+  Q
 
 Quad A (AAAA) record: It is very similar to an A record except that it returns in IPv6 address instead of an IPv4 address
 
-R
+  R
 
 Receiving address: The MAC address of the access point that should receive the frame
 
 Recursive name servers: Servers that perform full DNS resolution requests
+
+Registrar: An organization responsible for assigning individual domain names to other organizations or individuals
 
 Reverse lookup zone files: They let DNS resolvers ask for an IP, and get the FQDN associated with it returned
 
@@ -406,7 +394,7 @@ Routing protocols: Special protocols the routers use to speak to each other in o
 
 RST flag: One of the TCP control flags. RST is short for reset. This flag means that one of the sides in a TCP connection hasn't been able to properly recover from a series of missing or malformed segments
 
-S
+  S
 
 Sequence control field: A field that is 16 bits long and mainly contains a sequence number used to keep track of ordering the frames
 
@@ -425,6 +413,8 @@ Short-range wireless network: It is what mobile devices uses to connect to their
 Simplex communication: A form of data communication that only goes in one direction across a cable
 
 Socket: The instantiation of an endpoint in a potential TCP connection
+
+Software as a Service (SaaS): A way of licensing the use of software to others while keeping that software centrally hosted and managed
 
 Source MAC address: The hardware address of the device that sent the ethernet frame or data packet. In the data packet it follows the destination MAC address
 
@@ -450,7 +440,7 @@ SYN_RECEIVED: A TCP socket state that means that a socket previously in a listen
 
 SYN_SENT: A TCP socket state that means that a synchronization request has been sent, but the connection hasn't been established yet
 
-T
+  T
 
 T-Carrier technologies: Technologies Invented to transmit multiple phone calls over a single link. Eventually, they also became common transmission systems to transfer data much faster than any dial-up connection could handle
 
@@ -476,6 +466,8 @@ Transmitter address: The MAC address of whatever has just transmitted the frame
 
 Transport layer: The network layer that sorts out which client and server programs are supposed to get the data
 
+Traffic class field: An 8-bit field that defines the type of traffic contained within the IP datagram and allows for different classes of traffic to receive different priorities
+
 Twisted pair cable: The most common type of cabling used for connecting computing devices. It features pairs of copper wires that are twisted together
 
 Two-factor authentication: A technique where more than just a username and password are required to authenticate. Usually, a short-lived numerical token is generated by the user through a specialized piece of hardware or software
@@ -484,7 +476,7 @@ TXT record: It stands for text and was originally intended to be used only for a
 
 Types of DNS servers: There are five primary types of DNS servers; caching name servers, recursive name servers, root name servers, TLD name servers, and authoritative name servers
 
-U
+  U
 
 Unicast transmission: A unicast transmission is always meant for just one receiving address
 
@@ -494,7 +486,7 @@ Urgent pointer field: A field used in conjunction with one of the TCP control fl
 
 User Datagram Protocol (UDP): A transfer protocol that does not rely on connections. This protocol does not support the concept of an acknowledgement. With UDP, you just set a destination port and send the data packet
 
-V
+  V
 
 Virtual LAN (VLAN): It is a technique that lets you have multiple logical LANs operating on the same physical equipment
 
@@ -502,7 +494,11 @@ Virtual Private Network (VPN): A technology that allows for the extension of a p
 
 VLAN header: A piece of data that indicates what the frame itself is. In a data packet it is followed by the EtherType
 
-W
+Virtualization: A single physical machine called a host runs many individual virtual instances called guests
+
+Version field: First field in an IP header that specifies the version of IP
+
+  W
 
 Wi-Fi Protected Access (WPA): A security program that uses a 128-bit key to protect wireless computer networks, which makes it more difficult to crack than WEP
 
@@ -516,6 +512,6 @@ Wireless LANS (WLANS): One or more access points act as a bridge between a wirel
 
 Wireless networking: Networks you connect to through radios and antennas
 
-Z
+  Z
 
 Zone Files: Simple configuration files that declare all resource records for a particular zone
